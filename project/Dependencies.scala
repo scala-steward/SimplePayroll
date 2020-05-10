@@ -10,7 +10,7 @@ object Dependencies {
   lazy val meowMtlCore = "com.olegpy" %% "meow-mtl-core" % "0.4.0"
   lazy val meowMtlEffects = "com.olegpy" %% "meow-mtl-effects" % "0.4.0"
   lazy val newType = "io.estatico" %% "newtype" % "0.4.3"
-  lazy val refined = "eu.timepit" %% "refined" % "0.9.12"
+  lazy val refined = "eu.timepit" %% "refined" % "0.9.14"
   lazy val monocleCore = "com.github.julien-truffaut" %% "monocle-core" % "2.0.1"
   lazy val monocleMacro = "com.github.julien-truffaut" %% "monocle-macro" % "2.0.1"
   lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.1.1"

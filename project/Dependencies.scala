@@ -13,7 +13,7 @@ object Dependencies {
   lazy val refined = "eu.timepit" %% "refined" % "0.9.14"
   lazy val monocleCore = "com.github.julien-truffaut" %% "monocle-core" % "2.0.4"
   lazy val monocleMacro = "com.github.julien-truffaut" %% "monocle-macro" % "2.0.4"
-  lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.1.1"
+  lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.1.2"
 
   lazy val contextApplied = compilerPlugin(
     "org.augustjune" %% "context-applied" % "0.1.4"

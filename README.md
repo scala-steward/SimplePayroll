@@ -5,7 +5,10 @@
 * [ ] Review Typesafe Kind Projector usage [1]
 * [ ] Review Context Applied compiler plugin [2]
 * [ ] Add Scala Steward [3]
+* [ ] Add migrations
+* [ ] Try Skunk for connecting to postgresql [4]
 
 [1]: https://github.com/typevel/kind-projector
 [2]: https://github.com/augustjune/context-applied
 [3]: https://github.com/fthomas/scala-steward
+[4]: https://tpolecat.github.io/skunk/index.html

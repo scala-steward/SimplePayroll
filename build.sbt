@@ -5,10 +5,14 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / organization := "io.sciencebird"
 ThisBuild / organizationName := "ScienceBird"
 
-//TODO: Continue adding libraries from the pfp book
 lazy val root = (project in file("."))
+  .settings(name := "sps")
+  .aggregate(core)
+
+//TODO: Continue adding libraries from the pfp book
+lazy val core = (project in file("modules/core"))
   .settings(
-    name := "Simple Payroll System",
+    name := "sps-core",
     libraryDependencies += kindProjector,
     libraryDependencies += contextApplied,
     libraryDependencies += catsCore,

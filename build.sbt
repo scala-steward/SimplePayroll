@@ -13,6 +13,7 @@ lazy val root = (project in file("."))
 lazy val core = (project in file("modules/core"))
   .settings(
     name := "sps-core",
+    scalacOptions += "-Ymacro-annotations",
     libraryDependencies += kindProjector,
     libraryDependencies += contextApplied,
     libraryDependencies += catsCore,
@@ -29,6 +30,3 @@ lazy val core = (project in file("modules/core"))
     libraryDependencies += monocleMacro,
     libraryDependencies += scalaTest % Test
   )
-
-scalacOptions += "-Ymacro-annotations"
-// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.

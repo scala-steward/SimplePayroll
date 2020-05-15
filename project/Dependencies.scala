@@ -14,7 +14,7 @@ object Dependencies {
   lazy val monocleCore       = "com.github.julien-truffaut" %% "monocle-core"        % "2.0.4"
   lazy val monocleMacro      = "com.github.julien-truffaut" %% "monocle-macro"       % "2.0.4"
   lazy val scalaTest         = "org.scalatest"              %% "scalatest"           % "3.1.2"
-  lazy val scalaCheck        = "org.scalacheck"             %% "scalacheck"          % "1.14.1"
+  lazy val scalaCheck        = "org.scalacheck"             %% "scalacheck"          % "1.14.3"
   lazy val contextApplied    = "org.augustjune"             %% "context-applied"     % "0.1.4"
   lazy val kindProjector     = "org.typelevel"              %% "kind-projector"      % "0.11.0" cross CrossVersion.full
 }

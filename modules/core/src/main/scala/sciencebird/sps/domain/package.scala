@@ -1,13 +1,9 @@
 package sciencebird.sps
 
-import eu.timepit.refined.types.string.NonEmptyString
+import eu.timepit.refined.api.Refined
+import eu.timepit.refined.collection.NonEmpty
+import eu.timepit.refined.string.Uuid
+import eu.timepit.refined.types.string.FiniteString
 import io.estatico.newtype.macros.newtype
 
-package object domain {
-  @newtype case class AccountId(val value: NonEmptyString)
-
-  @newtype case class PersonId(val value: NonEmptyString)
-  @newtype case class PersonName(val value: NonEmptyString)
-
-  @newtype case class EmployeeId(val value: NonEmptyString)
-}
+package object domain {}
